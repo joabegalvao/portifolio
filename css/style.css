@@ -1,0 +1,336 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+}
+.div-nav{
+    background-color: rgb(21, 22, 22);
+    width: 100%;
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.div-logo img {
+    height: 35px;
+}
+.div-logo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3em;
+}
+.div-menu{
+    background-color: rgb(21, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.div-menu a{
+    padding: 0px 2em 0px 0px;
+    
+    
+}
+.div-menu a > p:hover{
+    color: rgb(204, 201, 201);
+    border-top: 3px solid rgb(255, 255, 255);
+    padding: 1.3em 0;
+}
+/*Inicio*/
+
+.inicio{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 29em;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(0, 12, 0);
+    
+}
+.inicio img {
+    /*width: 100px; DIMINUIR*/
+    width: 100%;
+    
+}
+.div-img{
+    background-color: aqua;
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 0.9rem;
+}
+
+.container-inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.div-nome{
+    margin-bottom: 1rem;
+}
+.div-nome h1, h2{
+    color: black;
+}
+.div-oqsou{
+    border: 1px solid black;
+    padding: 0.3em;
+    margin-bottom: 2rem;
+}
+
+.btn-curriculo button{
+    border: none;
+    background-color: rgb(22, 22, 24);
+    padding: 0.5em;
+    font-size: 18px;
+    border-radius: 6px;
+    
+}
+.btn-curriculo button:hover{
+    background-color: rgb(52, 52, 54);
+    box-shadow: 1px 1px 3px rgb(29, 29, 43);
+    cursor: pointer;
+}
+
+#anc-abt-me{
+    height: 25em;
+    
+}
+.container-abt-me{
+    margin-top: 3em;
+    background-color: rgb(27, 27, 27);
+    width: 100vw;
+    height: 23em;
+    
+}
+.sobre-mim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    
+}
+.sobre-mim h1{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: rgb(221, 221, 221);
+    
+}
+
+.tituloskills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    margin-top: 8em;
+    border-top: 1px solid rgb(0, 12, 0);
+}
+
+.tituloskills h2{
+    border-bottom: 2px solid rgba(27, 27, 27, 0.288);
+    border-top: 2px solid rgba(27, 27, 27, 0.288);
+    padding: 1px;
+    color: rgb(27, 27, 27);
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+.containerskill{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.imgskill img{
+    height: 7em;
+
+}
+.imgskill{
+    position: relative;
+    padding: 0em 4em
+    
+}
+.imgskill h2{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(27, 27, 27);
+    margin-bottom: 4em;
+}
+
+.titulo-projetos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 2em;
+    margin-top: 1em;
+}
+.titulo-projetos h2{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(27, 27, 27);
+    font-size: 27px;
+    border-bottom: 2px solid rgba(27, 27, 27, 0.288);
+    border-top: 2px solid rgba(27, 27, 27, 0.288);
+    padding: 5px;
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 4em;
+}
+.cards h3{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(27, 27, 27);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.cards p{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(27, 27, 27);
+    font-size: 20px;
+    text-align: center;
+    padding: 35px;
+    text-transform: uppercase;
+}
+.cards{
+    box-shadow: 1px 1px 1px 2px rgb(173 173 173 / 77%);;
+    border-radius: 5px;
+    padding: 3em;
+    margin: 1.5em;
+}
+
+.imgproject{
+    border: 1px solid black;
+    width: 20em;
+    height: 14em;
+    position: relative;
+}
+
+.contato{
+    background: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 20em;
+}
+
+.meus-contatos h1{
+    font-family: 'Space Mono', monospace;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 5px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.email p{
+    font-family: 'Space Mono', monospace;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+}
+.email p > a{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+}
+.whatsapp p{
+    font-family: 'Space Mono', monospace;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+}
+.whatsapp p > a{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+}
+.linkedin p{
+    font-family: 'Space Mono', monospace;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+}
+.linkedin p > a{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+}
+.github p{
+    font-family: 'Space Mono', monospace;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+}
+.github p > a{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 5em;
+}
+.footer h2{
+    font-family: 'Space Mono', monospace;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    
+}
+/*Mobile*/
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    .div-nav{
+       justify-content: right; 
+       
+    }
+
+    .div-menu a{
+        padding: 0.2;
+    }
+}
