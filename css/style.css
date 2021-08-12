@@ -338,12 +338,12 @@
         align-items: center;
         padding: 10px;
     }
+    .div-menu {
+        margin: auto;
+    }
     .div-menu a{
-        font-size: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 5px;
+       padding: 5px;
+       font-size: 15px;
     }
 
     .div-img{
@@ -394,12 +394,12 @@
     }
 
     .tituloskills{
-        margin-top: 23em;
+        margin-top: 18em;
     }
 
     .container-abt-me{
         width: 100vw;
-        height: 38em;  
+        height: 33em;  
     }
 
     .cards{
@@ -440,5 +440,143 @@
         font-size: 12px;
         
     }
+    
+}
+
+@media screen and (min-width: 970px) and (max-width: 1059px) {
+    .container-abt-me{
+        height: 29em;  
+    }
+    .containerskill{
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+    .imgskill img{
+        height: 10em;
+    
+    }
+    .imgskill h2{
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 813px) and (max-width: 969px) {
+    .container-abt-me{
+        height: 31em;  
+    }
+    .containerskill{
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+    .imgskill img{
+        height: 10em;
+    
+    }
+    .imgskill h2{
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 678px) and (max-width: 811px) {
+    .container-abt-me{
+        height: 24em;  
+    }
+    .tituloskills{
+        margin-top: 9em;
+    }
+    .containerskill{
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+    .imgskill img{
+        height: 8em;
+    
+    }
+    .imgskill h2{
+        font-family: 'Oswald', sans-serif;
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 610px) and (max-width: 677px) {
+    .container-abt-me{
+        height: 27em;  
+    }
+    .tituloskills{
+        margin-top: 12em;
+    }
+}
+
+@media screen and (min-width: 527px) and (max-width: 609px) {
+    .container-abt-me{
+        height: 29em;  
+    }
+    .tituloskills{
+        margin-top: 14em;
+    }
+}
+
+@media screen and (min-width: 458px) and (max-width: 526px) {
+    .container-abt-me{
+        height: 30em;  
+    }
+    .tituloskills{
+        margin-top: 15em;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 457px) {
+    .container-abt-me{
+        height: 31em;  
+    }
+    .tituloskills{
+        margin-top: 16em;
+    }
+}
+@media screen and (min-width: 367px) and (max-width: 424px) {
+    .container-abt-me{
+        margin-left: -8px;
+    }
+    
+}
+@media screen and (min-width: 332px) and (max-width: 366px) {
+    .container-abt-me{
+        height: 30em;  
+    }
+    .texto{
+        font-size: 15px; 
+    }
+    .tituloskills{
+        margin-top: 15.5em;
+    }
+}
+@media screen and (max-width: 331px)  {
+    .container-abt-me{
+        height: 30em;  
+    }
+    .texto{
+        font-size: 15px; 
+    }
+    .tituloskills{
+        margin-top: 15.5em;
+    }
+}
+@media screen and (max-width: 322px)  {
+    .container-abt-me{
+        height: 35em;  
+    }
+    .texto{
+        font-size: 15px; 
+    }
+    .tituloskills{
+        margin-top: 20em;
+    }
+}
+@media screen and (min-width: 813px){
     
 }
