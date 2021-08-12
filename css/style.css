@@ -352,14 +352,14 @@
         height: 8em;
     }
     .div-nome{
-        margin-bottom: 1rem;
+        margin-bottom: 1.2rem;
     }
     .div-nome h1, h2{
-        font-size: 19px;
+        font-size: 17px;
     }
     .div-oqsou{
-        padding: 9px;
-        margin: 15px;
+        padding: 8px;
+        margin: 10px;
         margin-bottom: 2em;
     }
     .btn-curriculo button{
