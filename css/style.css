@@ -22,7 +22,7 @@
 }
 .div-nav{
     background-color: rgb(21, 22, 22);
-    width: 100%;
+    width: 100vw;
     height: 4em;
     display: flex;
     justify-content: space-between;
@@ -74,7 +74,6 @@
     
 }
 .div-img{
-    background-color: aqua;
     border-radius: 50%;
     width: 10em;
     height: 10em;
@@ -324,13 +323,122 @@
     
 }
 /*Mobile*/
-@media screen and (min-width: 300px) and (max-width: 700px) {
+@media screen and (min-width: 300px) and (max-width: 812px) {
     .div-nav{
        justify-content: right; 
        
     }
-
-    .div-menu a{
-        padding: 0.2;
+    .div-logo img{
+        height: 1.5em;
     }
+    .div-logo{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .div-menu a{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .div-img{
+        border-radius: 50%;
+        width: 8em;
+        height: 8em;
+    }
+    .div-nome{
+        margin-bottom: 1rem;
+    }
+    .div-nome h1, h2{
+        font-size: 19px;
+    }
+    .div-oqsou{
+        padding: 9px;
+        margin: 15px;
+        margin-bottom: 2em;
+    }
+    .btn-curriculo button{
+        font-size: 15px;   
+    }
+    .inicio{
+        height: 25em;
+        width: 100vw;
+    }
+
+    .sobre-mim{
+        padding: 2em;
+    }
+   
+    .texto{
+        font-size: 17px;
+        padding: 0 1em;
+    }
+    .containerskill{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .imgskill img{
+        height: 6em;
+    
+    }
+    .imgskill h2{
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+    }
+
+    .tituloskills{
+        margin-top: 23em;
+    }
+
+    .container-abt-me{
+        width: 100vw;
+        height: 38em;  
+    }
+
+    .cards{
+        padding: 1em;
+        margin: 2em;
+    }
+    
+    .imgproject{
+        width: 100%;
+    }
+    .cards p{
+        font-size: 18px;
+        padding: 20px;
+    }
+
+
+    .meus-contatos h1{
+        font-size: 20px;
+        padding: 10px;
+    }
+   
+    .email p > a, .whatsapp p > a, .linkedin p > a, .github p > a{
+        font-family: 'Oswald', sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+    }
+    .email p, .whatsapp p, .linkedin p, .github p{
+        font-family: 'Space Mono', monospace;
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+    }
+    /*AJUSTE MARGIN*/
+
+    .footer, .contato, #cards, .titulo-projetos, .tituloskills, .containerskill  {
+        width: 100vw;
+    }
+    .footer h2{
+        font-size: 12px;
+        
+    }
+    
 }
