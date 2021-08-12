@@ -597,11 +597,7 @@
         border-top: 3px solid rgb(255, 255, 255);
         padding: 1em 0 1.2em 0;
     }
-    .div-menu{
-        display: flex;
-        justify-content: center;
-        padding-right: 3em;
-     }
+    
 }
 @media screen and (min-width: 332px) and (max-width: 366px) {
     .container-abt-me{
@@ -618,11 +614,7 @@
         border-top: 3px solid rgb(255, 255, 255);
         padding: 1em 0 1.2em 0;
     }
-    .div-menu{
-        display: flex;
-        justify-content: center;
-        padding-right: 3em;
-     }
+    
 }
 @media screen and (max-width: 331px)  {
     .container-abt-me{
@@ -639,11 +631,7 @@
         border-top: 3px solid rgb(255, 255, 255);
         padding: 1em 0 1.2em 0;
     }
-    .div-menu{
-        display: flex;
-        justify-content: center;
-        padding-right: 3em;
-     }
+    
 }
 @media screen and (max-width: 322px)  {
     .container-abt-me{
@@ -660,9 +648,5 @@
         border-top: 3px solid rgb(255, 255, 255);
         padding: 1em 0 1.2em 0;
     }
-    .div-menu{
-        display: flex;
-        justify-content: center;
-        padding-right: 3em;
-     }
+    
 }
