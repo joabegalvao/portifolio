@@ -20,10 +20,7 @@
     height: 100vh;
     width: 100vw;
 }
-.nav{
-    position: sticky;
-    top: 0;
-}
+
 .div-nav{
     background-color: rgb(21, 22, 22);
     width: 100vw;
